@@ -1,0 +1,16 @@
+# vi:se nowrap:
+data:
+  user:
+    email: ${email_address}
+    name: ${display_name}
+    time_zone: ${time_zone}
+  ssh:
+    authorized: ${public_key}
+    public: ${public_key}
+    private: ${private_key}
+    config: ${ssh_config}
+  admin:
+    hosts:
+      - localhost
+    apthosts:
+      - localhost
